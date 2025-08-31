@@ -1,7 +1,7 @@
 # ESP32 CYD Display together with Touch Control and SD Card Reader
 The ESP32 Cheap Yellow Device is a fantastic device as it comes with a **2.8-inches TFT display** with **Touch Controller** and **SD Card Reader** mounted on the PCB. But it seemed to be very difficult to use the Touch Controller together with the SD Card Reader. I'm providing two examples how to solve the problem.
 
-This is the accompanying repository for my article "**How to use Touch and SD Card at the same time on an ESP32 Cheap Yellow Display ("CYD")**" available here:
+This is the accompanying repository for my article "**How to use Touch and SD Card at the same time on an ESP32 Cheap Yellow Display ("CYD")**" available here: https://medium.com/@androidcrypto/how-to-use-touch-and-sd-card-at-the-same-time-on-an-esp32-cheap-yellow-display-cyd-45fa55d01ffe
 
 ## Runtime Environment
 ````plaintext
