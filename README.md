@@ -1,5 +1,5 @@
-# ESP32 CYD_Display together with Touch Control and SD Card Reader
-The ESP32 Cheap Yellow Device is a fantastic device as it comes with a 2.8-inches TFT display with Touch Controller and SD Card Reader mounted on the PCB. But it seemed to be very difficult to use the Touch Controller together with the SD Card Reader. I'm providing two examples how to solve the problem.
+# ESP32 CYD Display together with Touch Control and SD Card Reader
+The ESP32 Cheap Yellow Device is a fantastic device as it comes with a **2.8-inches TFT display** with **Touch Controller** and **SD Card Reader** mounted on the PCB. But it seemed to be very difficult to use the Touch Controller together with the SD Card Reader. I'm providing two examples how to solve the problem.
 
 This is the accompanying repository for my article "**How to use Touch and SD Card at the same time on an ESP32 Cheap Yellow Display ("CYD")**" available here:
 
@@ -12,6 +12,14 @@ For compiling and uploading, I'm using the "ESP32-2432S028R CYD" board
 
 ### Esp32_CYD_TFT_eSPI_SD_with_Touch
 This sketch is using the TFT_eSPI library for display together with the XPT2046_Touchscreen library for touch control.
+
+Depending on your device you need to use the correct User Settings file:
+````plaintext
+- If it is a device with one USB (Micro) connector = ILI9341 display use:
+  Setup801_ESP32_CYD_ILI9341_240x320_NoMiso.h
+- If the device has two (Micro- and C) USB connectors = ST7789 display use:
+  Setup805_ESP32_CYD_ST7789_240x320_NoMiso.h
+````
 
 ### Esp32_CYD_LovyanGFX_SD_with_Touch
 This sketch is using the LovyanGFX library for display and touch control.
