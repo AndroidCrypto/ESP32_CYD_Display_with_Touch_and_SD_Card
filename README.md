@@ -18,10 +18,10 @@ This sketch is using the LovyanGFX library for display and touch control.
 
 ## Images used in data folder
 
-I took the two images personally: one is the **Grand Prismatic Spring* in Yellowstone NP, USA. 
+I took the two images personally: one is the **Grand Prismatic Spring** in Yellowstone NP, USA. 
 
 ![Image 1](./images/esp32_cyd_touch_sdcard_1_500h.png)
 
-The second image is The Wave, located in South Coyote Buttes, Utah/Arizona border, USA.
+The second image is **The Wave**, located in South Coyote Buttes, Utah/Arizona border, USA.
 
 ![Image 1](./images/esp32_cyd_touch_sdcard_2_500h.png)
